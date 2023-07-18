@@ -1,13 +1,12 @@
 
 
-// Assuming you have an API object or module that provides the necessary functionality
 const api = {
     title: 'Some Title',
     createNote: async function(note) {
       return new Promise((resolve, reject) => {
         setTimeout(() => {
           // Simulating an asynchronous operation
-          // In a real implementation, you would perform the necessary API request here
+          // Perform the necessary API request here
 
           // Resolve the promise with a dummy response
           resolve({ message: 'Note created successfully!', note });
